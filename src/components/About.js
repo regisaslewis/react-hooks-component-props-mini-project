@@ -1,9 +1,9 @@
 import React from "react"
 
-function About({ about, image="http://via.placeholder.com/215" }) {
+function About({ about, image="https://via.placeholder.com/215" }) {
   return (
     <aside>
-      <img alt="blue logo" src={image} />
+      <img src={image} alt="blue logo" />
       <p>{about}</p>
     </aside>
   )
